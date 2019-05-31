@@ -6,7 +6,7 @@ ADD start.sh /start.sh
 
 RUN apk add --update git python make g++ && \
     npm install -g bower && \
-    git clone https://github.com/provivus/explorer /app && \
+    git clone https://github.com/carsenk/explorer /app && \
     cd /app && \
     npm install && \
     bower --allow-root install && \
